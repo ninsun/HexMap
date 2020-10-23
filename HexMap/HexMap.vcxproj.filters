@@ -44,6 +44,12 @@
     <ClCompile Include="HexCell.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="HexMapGraphicsScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HexCellGraphicsItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtUic Include="HexMap.ui">
@@ -57,6 +63,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="HexCell.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HexCellGraphicsItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HexMapGraphicsScene.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
